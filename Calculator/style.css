@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(111, 136, 180);
+}
+div{
+    
+    background-color: rgba(222, 239, 243, 0.658);
+    border-radius: 18px;
+}
+
+#main {
+    background-color: rgba(222, 239, 243, 0.658);
+    position: relative;
+    width: 28%;
+    top: 52px;
+    left: 34%;
+    border-radius: 18px;
+    height: 29rem;
+}
+#input {
+    width: 90%;
+    height: 70px;
+    font-size: xx-large;
+    border-radius: 10px;
+    background-color: rgb(173, 221, 243);
+}
+.inp{ 
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    
+}
+
+.btn, .btn1 {
+    width: 17%;
+    height: 66px;
+    margin: 3px 4px;
+    border-radius: 18px;
+    font-size: larger;
+    background-color: rgb(177, 206, 221);
+}
+.btn1{
+    
+    width:27% ;
+}
+.btnn{
+    
+    background-color: rgb(87, 165, 201);
+}
