@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
+</head>
+
+<body>
+    <div id="main">
+
+        <div id="inputDiv">
+            <input type="text" id="input" placeholder="Enter Data">
+
+            <button id="btn" class="btn" onclick="addTodo()">Add</button>
+
+            <button id="btn1" class="btn" onclick="DaleteAll()">Dalete All</button>
+        </div>
+
+
+        <div id="listDev">
+            <!-- for data that we added -->
+            <ol id="list">
+
+            </ol>
+        </div>
+
+        
+
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
